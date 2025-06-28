@@ -1,7 +1,14 @@
+/*
+Author: Lucas / MOONLGHT
+Name PONG!
+
+Statut: Very Work In Progress
+*/
+
 #include <SFML/include/Graphics.hpp>
 
 int main() {
-    sf::RenderWindow window(sf::VideoMode(800, 600), "Ma fenêtre SFML");
+    sf::RenderWindow window(sf::VideoMode(800, 600), "PONG!");
 
     while (window.isOpen()) {
         sf::Event event;
@@ -11,8 +18,6 @@ int main() {
         }
 
         window.clear(sf::Color::Black);
-
-        // Dessine ici tes boutons, textes, etc.
 
         window.display();
     }
